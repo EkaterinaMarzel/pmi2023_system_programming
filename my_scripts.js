@@ -6,7 +6,7 @@ $(document).ready(function(){
             url: "telegram.php",
             data: form_data,
             success: swal({
-                title: "Спасибо за заявку",
+                title: "Заявка успешно отправлена!",
                 icon: "success",
                 timer: 2000
             })
